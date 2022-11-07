@@ -258,26 +258,6 @@
           id="008509a2-4069-401e-8935-fb7be7c846b6" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="dbfaf790-8f15-4ca2-8884-341b083aef29" name="Root System Function">
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="154e54f2-5cff-46e0-a1dd-05d1c4ef4ec0" name="Vérifier le stock de véhicules"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="33a9b144-6483-456b-8311-ca32aabed5f1" name="Vérifier l'opérationnalité du véhicule"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="2d62789c-8d3e-4e77-b74b-dfef6bbca7fc" name="Créer un compte utilisateur"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="f6f50488-9462-4397-be3f-a3c6c11e8a84" name="Remplir le formulaire de livraison"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="e9f76d8d-9155-4d9a-95e2-6e08d0988e18" name="Créer un compte utilisateur"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="3ae149dc-5815-4326-8431-c781ce13e05c" name="Choisir le mode de paiement"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="ce69b190-5dd2-4ca0-9fe2-f3660a2fc6a0" name="Prouver son identité"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="f7f58977-f067-4227-9ab3-78b510458b60" name="Répondre aux appels"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="53f5192f-ff2f-4291-bbfe-c565af7453be" name="Appeler le 15"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="eaf07010-5654-41fe-973d-18fc10059b77" name="Recharger un véhicule"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="35fd026b-8eb5-4675-8d6d-8ca029ebd505" targetElement="#0fe960a7-8a4a-43bc-92b4-8f0ee6a6a66c"
               sourceElement="#dbfaf790-8f15-4ca2-8884-341b083aef29"/>
@@ -320,16 +300,6 @@
           <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
               id="b05e00c8-16b4-41fc-a3c7-76ba31bc3177" targetElement="#aadcd161-aa4f-410e-9699-bd90753c0a0c"
               sourceElement="#c011d85c-6b27-4a99-ace2-366575ff9621"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="ed5a1114-627f-42aa-ab78-9a99af155b7a" name="Avoir une voiture de disponible">
-          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
-              id="3c17332d-044e-42a6-bd84-ed00e5cf89d4" involved="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="78d6bea3-ad72-4315-81c7-ff2c5d7f07d4" name="Vérifier la validité des données">
-          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
-              id="c4a064e0-976b-45af-9715-4356c26a25da" involved="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
         </ownedCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
@@ -432,85 +402,18 @@
       <ownedSystemComponentPkg xsi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg"
           id="323a77f3-b314-4843-9528-c6ed7d7f276e" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="11faf905-f623-4c78-89e3-d277a6ce08b6"
-            name="Service d'acheminement de biens et de personnes" abstractType="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9e56758f-6b9b-4cf4-b2cc-5a2f5cc606d1"
-            name="SI parc automobile" abstractType="#39bd963f-c348-449a-9aef-093c793eae8f"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="133dc02d-961f-405b-a612-c32fa27122e4"
-            name="Voiture" abstractType="#3a8f023b-0a52-4655-ab1b-5e66c5863c34"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="410474b4-6b85-4752-9d9e-1dacdade648d"
-            name="Client (réservation)" abstractType="#e415a9e1-adf6-4fba-80bd-3c589af529c6"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="f8c765bf-d9ce-438c-8342-13a963a1d84e"
-            name="Client (réception de colis)" abstractType="#78690fd5-efca-4525-82d9-e7162ee71dbd"/>
-        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="90a77b4d-3f15-45a1-8113-1c3d937ec4c4"
-            name="Didier - le mécano" abstractType="#2c0d8b75-ce2a-4786-a987-4bbdfb5c5da2"/>
+            name="System" abstractType="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="b4c7a604-eff1-429b-b3b7-d5d901f45077" name="Service d'acheminement de biens et de personnes">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="5b358c3b-b47f-45f1-9bd4-de3395366725" targetElement="#f7f58977-f067-4227-9ab3-78b510458b60"
-              sourceElement="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="891c9cce-9d42-4f2c-9c47-4bb45af73e56" targetElement="#53f5192f-ff2f-4291-bbfe-c565af7453be"
-              sourceElement="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
+            id="b4c7a604-eff1-429b-b3b7-d5d901f45077" name="System">
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="01441ec3-5f72-43c3-be27-06402ebe690c" name="System State Machine">
             <ownedRegions xsi:type="org.polarsys.capella.core.data.capellacommon:Region"
                 id="1263d52a-5121-4c8f-892f-dde2a0c60d77" name="Default Region"/>
           </ownedStateMachines>
         </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="39bd963f-c348-449a-9aef-093c793eae8f" name="SI parc automobile" actor="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="ce45d6cf-2a06-4810-9e68-1b5e68c90c8d" targetElement="#154e54f2-5cff-46e0-a1dd-05d1c4ef4ec0"
-              sourceElement="#39bd963f-c348-449a-9aef-093c793eae8f"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="9c7d08d8-1be4-41e7-8755-f7ff2202d370" targetElement="#eaf07010-5654-41fe-973d-18fc10059b77"
-              sourceElement="#39bd963f-c348-449a-9aef-093c793eae8f"/>
-        </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="3a8f023b-0a52-4655-ab1b-5e66c5863c34" name="Voiture" actor="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="b3578c4b-9dda-461c-ba74-c97d08355e46" targetElement="#33a9b144-6483-456b-8311-ca32aabed5f1"
-              sourceElement="#3a8f023b-0a52-4655-ab1b-5e66c5863c34"/>
-        </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="e415a9e1-adf6-4fba-80bd-3c589af529c6" name="Client (réservation)"
-            actor="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="3a326a36-1de3-4e0f-a27a-d8ff3a352b45" targetElement="#f6f50488-9462-4397-be3f-a3c6c11e8a84"
-              sourceElement="#e415a9e1-adf6-4fba-80bd-3c589af529c6"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="7d2ee398-2b3c-417a-932e-6924096a9869" targetElement="#2d62789c-8d3e-4e77-b74b-dfef6bbca7fc"
-              sourceElement="#e415a9e1-adf6-4fba-80bd-3c589af529c6"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="353bb80a-3ce4-4e68-84d5-dc0fa3149102" targetElement="#3ae149dc-5815-4326-8431-c781ce13e05c"
-              sourceElement="#e415a9e1-adf6-4fba-80bd-3c589af529c6"/>
-        </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="78690fd5-efca-4525-82d9-e7162ee71dbd" name="Client (réception de colis)"
-            actor="true">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="9c365fbf-2fa5-4882-bf0f-7f6730716d57" targetElement="#e9f76d8d-9155-4d9a-95e2-6e08d0988e18"
-              sourceElement="#78690fd5-efca-4525-82d9-e7162ee71dbd"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="43950b73-e34f-466c-bb86-9a8eaa4e0fc0" targetElement="#ce69b190-5dd2-4ca0-9fe2-f3660a2fc6a0"
-              sourceElement="#78690fd5-efca-4525-82d9-e7162ee71dbd"/>
-        </ownedSystemComponents>
-        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="2c0d8b75-ce2a-4786-a987-4bbdfb5c5da2" name="Didier - le mécano" actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="a39d0fe3-7c0f-4ccf-b9d3-a429cf36b06d"
-          name="Missions">
-        <ownedMissions xsi:type="org.polarsys.capella.core.data.ctx:Mission" id="223970ed-de64-4db4-bc07-950104c531b1"
-            name="Trasport de marchandises">
-          <ownedMissionInvolvements xsi:type="org.polarsys.capella.core.data.ctx:MissionInvolvement"
-              id="377c0985-d70a-4d17-9116-3c75ade0a02a" involved="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
-        </ownedMissions>
-        <ownedMissions xsi:type="org.polarsys.capella.core.data.ctx:Mission" id="f68ee335-af31-494d-95e4-efabf1c698a1"
-            name="Transport de personnes">
-          <ownedMissionInvolvements xsi:type="org.polarsys.capella.core.data.ctx:MissionInvolvement"
-              id="68b5daa5-c675-4d22-b4f6-49f4dc2c22cb" involved="#b4c7a604-eff1-429b-b3b7-d5d901f45077"/>
-        </ownedMissions>
-      </ownedMissionPkg>
+          name="Missions"/>
       <ownedOperationalAnalysisRealizations xsi:type="org.polarsys.capella.core.data.ctx:OperationalAnalysisRealization"
           id="ebb2a248-49ac-4d74-add2-8e138ddacc36" targetElement="#a7828e7f-c0a7-49fa-97cf-947d1b70fc11"
           sourceElement="#0a6ce114-7fdf-45ca-b666-b6a215fea0b4"/>
