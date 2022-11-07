@@ -13,7 +13,6 @@
     xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datatype="http://www.polarsys.org/capella/core/information/datatype/5.0.0"
     xmlns:org.polarsys.capella.core.data.information.datavalue="http://www.polarsys.org/capella/core/information/datavalue/5.0.0"
-    xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/5.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/5.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/5.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/5.0.0"
@@ -111,10 +110,10 @@
               id="d43f26f1-9661-4c0c-b9f0-7869439d13c3" name="Envoyer un retour" target="#1f27a59e-1a32-4009-a31a-0b2132587ddf"
               source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="379b1b59-e9b7-4c33-a679-8e476aced6f9" name="Deux adresses" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
+              id="379b1b59-e9b7-4c33-a679-8e476aced6f9" name="Renseigner" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
               source="#c1c49964-91b6-4235-9e8f-12203c5b6c02"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="047c83c3-b460-46c7-9a91-cb98bfdc4b16" name="Personnes" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
+              id="047c83c3-b460-46c7-9a91-cb98bfdc4b16" name="Renseigner" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
               source="#9f70e06b-7488-48a0-8939-368362a79556"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="9ff24af8-7333-4236-9d1d-1def96a4cf4e" name="Renseigner" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
@@ -137,15 +136,12 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="01ec71fe-f9f1-4f18-acea-c37c76535242" name="Envoyer la requête"
               target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#28be1e54-3654-4acd-a094-1ede6e34f944"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="5f2b5841-f12f-4b35-859e-0aae27a1934c" name="Colis" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
-              source="#9f70e06b-7488-48a0-8939-368362a79556"/>
         </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="af9db5b7-9101-402c-afd9-7021a950c09b" name="Operational Capabilities">
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
-            id="9e52a693-4446-40b8-9989-18261d7ded67" name="Sécuriser l'ouverture de la voiture">
+            id="9e52a693-4446-40b8-9989-18261d7ded67" name="Sécuriser l'ouverture de lac voiture">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0aba621d-078c-44a2-a051-9982fa2a14a1" involved="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
         </ownedOperationalCapabilities>
@@ -186,7 +182,7 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b0594a10-40f0-4ba9-a347-714342b4b91e"
             name="Utilisateur" abstractType="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8a4e4e7c-6e50-45e3-a2fd-945992384c69"
-            name="Fournisseur" abstractType="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+            name="Prestataire" abstractType="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c56b3475-c250-4ede-bcb5-04b148cf38f6"
             name="Utilisateur">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -218,7 +214,7 @@
               sourceElement="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="f4dac7c3-488d-4cac-95b6-46b0f985af7f"
-            name="Fournisseur">
+            name="Prestataire">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="3df3fbe4-cc65-476b-b780-937a55ad5b1c" targetElement="#fcb49410-0d16-4da8-bee3-d2b00606a83a"
               sourceElement="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
@@ -264,44 +260,7 @@
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
-          id="05594038-b6a6-40ab-a25b-93883f8a227f" name="Capabilities">
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="9b2c5eb6-a36f-4f7b-b351-7e274cf7d84e" name="Sécuriser l'ouverture de la voiture">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="ffe645b1-3242-486e-91e5-b7bc7c86fc9d" targetElement="#9e52a693-4446-40b8-9989-18261d7ded67"
-              sourceElement="#9b2c5eb6-a36f-4f7b-b351-7e274cf7d84e"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="70d33ff9-7aa2-41ea-bf2b-52067a3a366a" name="Transporter des marchandises">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="817944bd-8a9a-49da-928a-852177d2d7eb" targetElement="#577d3427-d843-488b-88e3-aaad41116c49"
-              sourceElement="#70d33ff9-7aa2-41ea-bf2b-52067a3a366a"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="a0229752-f202-4d63-b59b-7f2fe8f84052" name="Transporter des personnes">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="e5f5b7c4-a901-49f0-aa82-3cefe260c631" targetElement="#bda083fb-8729-4192-aa38-4ef7256730d5"
-              sourceElement="#a0229752-f202-4d63-b59b-7f2fe8f84052"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="c48075eb-0ec7-4ffa-a7f0-da46a8540000" name="Proposer un service à l'utilisateur">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="5a731e73-7b1f-4808-ac49-4d734e426f87" targetElement="#705944f6-5a2a-48f6-ae94-4d469e3489fd"
-              sourceElement="#c48075eb-0ec7-4ffa-a7f0-da46a8540000"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="c2f99d05-d6e0-4c55-ab5c-3cdfa3e3ae23" name="Renseigner ses informations personnelles">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="02bb8602-51b9-4811-9b4d-448f053d249e" targetElement="#087ed3f2-2dd6-4838-a14a-78d6393e548d"
-              sourceElement="#c2f99d05-d6e0-4c55-ab5c-3cdfa3e3ae23"/>
-        </ownedCapabilities>
-        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="c011d85c-6b27-4a99-ace2-366575ff9621" name="Passer une commande">
-          <ownedAbstractCapabilityRealizations xsi:type="org.polarsys.capella.core.data.interaction:AbstractCapabilityRealization"
-              id="b05e00c8-16b4-41fc-a3c7-76ba31bc3177" targetElement="#aadcd161-aa4f-410e-9699-bd90753c0a0c"
-              sourceElement="#c011d85c-6b27-4a99-ace2-366575ff9621"/>
-        </ownedCapabilities>
-      </ownedAbstractCapabilityPkg>
+          id="05594038-b6a6-40ab-a25b-93883f8a227f" name="Capabilities"/>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="778cc834-18d2-4a1c-bedb-4a8c576240c7" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
