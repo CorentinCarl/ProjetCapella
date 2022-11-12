@@ -50,8 +50,6 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="9f70e06b-7488-48a0-8939-368362a79556" name="Choisir le mode de transport"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-              id="d75fe5f4-92d8-46e3-94f7-6044109e76e3" name="Changer de trajet en cours de route"/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="3288d49b-de5e-4c72-88a0-3cddf15f4bf3" name="Formuler une requête client"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="0c36e0ab-3741-4c28-be7c-890a58a1a792" name="Choisir un mode de paiement"/>
@@ -84,32 +82,32 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="2ddca365-f502-4a38-87bc-dcde3840239b" name="Réaliser une commande"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="543da1d4-46d3-4181-b6a7-6e5ef5c4dfbe" name="Envoyer informations"
-              target="#5588b086-9a4e-47df-b89f-d56aff161115" source="#fcb49410-0d16-4da8-bee3-d2b00606a83a"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d7998acb-f8ef-4d4b-b896-066f238c8d23" name="Récupérer informations"
-              target="#62aacda7-1d50-497b-84e4-ac20897ac5da" source="#fcb49410-0d16-4da8-bee3-d2b00606a83a"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="3f9ed315-048a-422f-85a7-0a242d8aaff5" name="Prévoir poncutuellement"
-              target="#a63c12e5-4f22-4572-b63b-f5ab4f9891aa" source="#7c27fdb2-8673-497c-b3f3-33c1bfc66518"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="bf5dc0fc-689b-4eff-b7ee-e19cec591aee" name="Impose le besoin" target="#1eae3c48-cf65-4fb2-8b6a-bc857b04382a"
-              source="#7c27fdb2-8673-497c-b3f3-33c1bfc66518"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="39865e1a-fc40-4a4a-b2f5-27deff0d457e" name="Transmettre" target="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"
+              id="543da1d4-46d3-4181-b6a7-6e5ef5c4dfbe" name="numéro urgence" target="#5588b086-9a4e-47df-b89f-d56aff161115"
               source="#fcb49410-0d16-4da8-bee3-d2b00606a83a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="fc9427b5-cc11-4f5c-b721-6e5bca5bcd3a" name="Donner un choix" target="#2d22340f-ad78-4119-8de3-1c0538f2fa8a"
+              id="d7998acb-f8ef-4d4b-b896-066f238c8d23" name="informations client"
+              target="#62aacda7-1d50-497b-84e4-ac20897ac5da" source="#fcb49410-0d16-4da8-bee3-d2b00606a83a"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="3f9ed315-048a-422f-85a7-0a242d8aaff5" name="controle technique voiture"
+              target="#a63c12e5-4f22-4572-b63b-f5ab4f9891aa" source="#7c27fdb2-8673-497c-b3f3-33c1bfc66518"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bf5dc0fc-689b-4eff-b7ee-e19cec591aee" name="code de la route" target="#1eae3c48-cf65-4fb2-8b6a-bc857b04382a"
+              source="#7c27fdb2-8673-497c-b3f3-33c1bfc66518"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="39865e1a-fc40-4a4a-b2f5-27deff0d457e" name="information du trajet"
+              target="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38" source="#fcb49410-0d16-4da8-bee3-d2b00606a83a"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="fc9427b5-cc11-4f5c-b721-6e5bca5bcd3a" name="moyen de payement" target="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"
+              source="#2d22340f-ad78-4119-8de3-1c0538f2fa8a"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="ec70a4b5-47e0-4cd8-9441-de017183949e" name="informations GPS" target="#690c43a5-5df9-4a1b-9a39-dea3fc5f3fdd"
               source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ec70a4b5-47e0-4cd8-9441-de017183949e" name="Réaliser le meilleur choix"
-              target="#690c43a5-5df9-4a1b-9a39-dea3fc5f3fdd" source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="cabf7c3d-a91a-4e19-9ae3-4d3f137908f5" name="Réaliser le meilleur choix"
-              target="#7c27fdb2-8673-497c-b3f3-33c1bfc66518" source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d43f26f1-9661-4c0c-b9f0-7869439d13c3" name="Envoyer un retour" target="#1f27a59e-1a32-4009-a31a-0b2132587ddf"
+              id="cabf7c3d-a91a-4e19-9ae3-4d3f137908f5" name="immatriculation" target="#7c27fdb2-8673-497c-b3f3-33c1bfc66518"
               source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="d43f26f1-9661-4c0c-b9f0-7869439d13c3" name="visuel application"
+              target="#1f27a59e-1a32-4009-a31a-0b2132587ddf" source="#f2fd2f80-c0fa-4f4c-95f9-10b9c2b1ba38"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="379b1b59-e9b7-4c33-a679-8e476aced6f9" name="Deux adresses" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
               source="#c1c49964-91b6-4235-9e8f-12203c5b6c02"/>
@@ -117,25 +115,22 @@
               id="047c83c3-b460-46c7-9a91-cb98bfdc4b16" name="Personnes" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
               source="#9f70e06b-7488-48a0-8939-368362a79556"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="9ff24af8-7333-4236-9d1d-1def96a4cf4e" name="Renseigner" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
+              id="9ff24af8-7333-4236-9d1d-1def96a4cf4e" name="point GPS" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
               source="#0826b765-a804-4af8-b65d-7701dab43f9b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="0481cb4c-f75f-4ad0-b9ac-482a582a1d84" name="Renseigner" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
-              source="#0c36e0ab-3741-4c28-be7c-890a58a1a792"/>
+              id="0481cb4c-f75f-4ad0-b9ac-482a582a1d84" name="informations bancaires"
+              summary="" target="#2ddca365-f502-4a38-87bc-dcde3840239b" source="#0c36e0ab-3741-4c28-be7c-890a58a1a792"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="300d654b-14be-42fd-a83b-99e61ea12c23" name="Envoyer le profil" target="#fcb49410-0d16-4da8-bee3-d2b00606a83a"
-              source="#a870bf3d-18b0-46bb-afda-22c5c9ca748a"/>
+              id="300d654b-14be-42fd-a83b-99e61ea12c23" name="informations personnelles"
+              target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#a870bf3d-18b0-46bb-afda-22c5c9ca748a"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="536190f0-724f-4a50-b31e-2e7d711a9a5d" name="Envoyer la commande"
+              id="536190f0-724f-4a50-b31e-2e7d711a9a5d" name="bus d'informations"
               target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#2ddca365-f502-4a38-87bc-dcde3840239b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e818190b-f373-47bd-bd11-acad8d30f2a5" name="Envoyer la requête"
-              target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#3288d49b-de5e-4c72-88a0-3cddf15f4bf3"/>
+              id="e818190b-f373-47bd-bd11-acad8d30f2a5" name="texte" target="#fcb49410-0d16-4da8-bee3-d2b00606a83a"
+              source="#3288d49b-de5e-4c72-88a0-3cddf15f4bf3"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="d62f7a3d-67f9-4e23-90b0-7f839b6feae5" name="Envoyer la demande"
-              target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#d75fe5f4-92d8-46e3-94f7-6044109e76e3"/>
-          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="01ec71fe-f9f1-4f18-acea-c37c76535242" name="Envoyer la requête"
+              id="01ec71fe-f9f1-4f18-acea-c37c76535242" name="information client"
               target="#fcb49410-0d16-4da8-bee3-d2b00606a83a" source="#28be1e54-3654-4acd-a094-1ede6e34f944"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="5f2b5841-f12f-4b35-859e-0aae27a1934c" name="Colis" target="#2ddca365-f502-4a38-87bc-dcde3840239b"
@@ -194,9 +189,6 @@
               sourceElement="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="c7397bdb-2241-403f-bb8d-50869b970edf" targetElement="#9f70e06b-7488-48a0-8939-368362a79556"
-              sourceElement="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="42474777-654b-495c-aefc-af4dd940b571" targetElement="#d75fe5f4-92d8-46e3-94f7-6044109e76e3"
               sourceElement="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="a4d6eeb1-a594-4084-9d09-8fa3c01d07cf" targetElement="#3288d49b-de5e-4c72-88a0-3cddf15f4bf3"
