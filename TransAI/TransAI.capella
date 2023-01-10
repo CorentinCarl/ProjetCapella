@@ -163,16 +163,22 @@
             id="9e52a693-4446-40b8-9989-18261d7ded67" name="Sécuriser l'ouverture de la voiture">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0aba621d-078c-44a2-a051-9982fa2a14a1" involved="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="6169e0da-9d04-4e0b-a3bb-7265630961a5" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="577d3427-d843-488b-88e3-aaad41116c49" name="Transporter des marchandises">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="eb53e1ff-254f-41da-ae58-0df0ee3b6a2f" involved="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c9289634-82f7-4ca0-8d7e-c732666e384e" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="bda083fb-8729-4192-aa38-4ef7256730d5" name="Transporter des personnes">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="c464cd20-0acb-490d-9508-4909f9cde95b" involved="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="b0130182-91a2-4f76-9d3d-10fd63cc665d" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="705944f6-5a2a-48f6-ae94-4d469e3489fd" name="Proposer un service à l'utilisateur">
@@ -189,6 +195,41 @@
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="6974fdca-8829-4a96-8827-4c702da5a354" involved="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
         </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="ad8be4a7-30f6-40e1-963c-7a57e57d1a76" name="Assurer le bon fonctionnement des voitures">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="61f1c349-605a-4b3c-9c19-ef51113fdbdc" involved="#049ee564-68e7-4196-81c0-639891d35f80"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="f1f70c54-d752-4d3c-865b-18191e0c1b5a" name="Maintient les voitures en état">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="1cd7a6e8-79cb-4d50-81d0-ad5e66bb0bea" involved="#049ee564-68e7-4196-81c0-639891d35f80"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="e744e8c1-e888-4a31-ab25-0bad80e1dea6" name="Suivre le déroulement du trajet">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="5383c28b-9312-4c22-8cea-745de4fdd846" involved="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="3847d9da-3958-4d1a-9abe-f90a69d4bcb8" name="Choisit une voiture opérationnelle">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="f27f667c-dad0-4bd4-bf43-7aa53bf9a4e1" involved="#5355925a-5e5f-451e-83a4-f0d10b6bf641"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="88a14f4b-c86b-43bd-bebb-3bfc409e4bbd" name="Détermine un trajet">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="ec47f2c9-4d21-4bd2-bd0d-f93c830315fd" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="8c3e28f7-3adf-464d-a544-c35aa3f1a9b9" name="Assure la sécurité de passagers">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="049477e5-926c-4453-926b-cf40d887f006" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
+        </ownedOperationalCapabilities>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="7808c1dd-c398-4500-a91f-20dc696a7669" name="Vérifie son état de fonctionnement">
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="024c71ca-d8d2-446f-9b99-04127ef07732" involved="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
+        </ownedOperationalCapabilities>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="0fabd873-5417-4217-a4e1-490d64f3e632" name="Interfaces"/>
@@ -202,6 +243,10 @@
             name="Utilisateur" abstractType="#c56b3475-c250-4ede-bcb5-04b148cf38f6"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="8a4e4e7c-6e50-45e3-a2fd-945992384c69"
             name="Fournisseur" abstractType="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="1645a3fd-c384-46ad-a803-ddeb9e2928bb"
+            name="Parc automobile" abstractType="#5355925a-5e5f-451e-83a4-f0d10b6bf641"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="66b37498-c867-47ec-b9c0-b9ffdd4c478a"
+            name="Voiture" abstractType="#5eea3acc-231a-428f-b0b2-ea1d03cda4b4"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="c56b3475-c250-4ede-bcb5-04b148cf38f6"
             name="Utilisateur">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
@@ -265,6 +310,15 @@
               id="bf20286d-3caf-43a0-a997-c2f000a5fca9" targetElement="#1eae3c48-cf65-4fb2-8b6a-bc857b04382a"
               sourceElement="#f4dac7c3-488d-4cac-95b6-46b0f985af7f"/>
         </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5355925a-5e5f-451e-83a4-f0d10b6bf641"
+            name="Parc automobile">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3c59cf91-2d22-4966-8dee-2e39019eadb7"
+              name="Mecanicien" abstractType="#049ee564-68e7-4196-81c0-639891d35f80"/>
+          <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="049ee564-68e7-4196-81c0-639891d35f80"
+              name="Mecanicien" actor="true" human="true"/>
+        </ownedEntities>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="5eea3acc-231a-428f-b0b2-ea1d03cda4b4"
+            name="Voiture"/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
