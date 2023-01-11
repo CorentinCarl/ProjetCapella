@@ -1178,7 +1178,7 @@
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:FragmentEnd"
                 id="26dd9b5b-5c71-49a2-bd1f-8081b33ec0be" name="start" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionOperand"
-                id="95587832-9595-49c1-b6bc-806f53aa4cbb" name="operand 1" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
+                id="8b0c3a11-c5d0-4a75-b17a-90560f39160a" name="operand" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="a0b9118e-9af7-4ccc-b39d-8464f8937372" name="Send Call Message Call"
                 coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542" event="#1ddade40-4ecf-4d23-ac07-6e4f86247523"/>
@@ -1194,6 +1194,8 @@
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
                 id="f4ffc985-ba66-480b-85c9-c7b41a922387" name="endExec" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"
                 event="#e1393ba2-32ea-4f78-9927-41c530f05816"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionOperand"
+                id="96a36c48-3100-4832-98db-a3b622d4ccf2" name="operand" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="77d19119-9b9e-4856-83da-c1a1f2775868" name="Send Call Message Call"
                 coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542" event="#4242e7e0-0c49-4ad1-b82a-697b9582886d"/>
@@ -1209,6 +1211,8 @@
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
                 id="7965854c-b311-4fec-8dc5-4a0b17363e15" name="endExec" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"
                 event="#ecf6ce6c-fa32-45a8-b27b-cce619a58f00"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionOperand"
+                id="c124d001-12e0-4fb6-b378-2482b5ead82b" name="operand" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="c639b02a-9c67-47f5-8028-06343e75719b" name="Send Call Message Call"
                 coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542" event="#b07133ee-573a-45bf-8acf-d332783e864e"/>
@@ -1224,6 +1228,8 @@
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
                 id="5b38d140-f0ae-44b6-a52c-e7417574a5f8" name="endExec" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"
                 event="#23ceae5f-9823-48a0-af86-6f295692af92"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionOperand"
+                id="19869977-ccaf-41c4-9478-f8ded8defcac" name="operand" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="5e9d86aa-94de-49a8-b0cf-95249bc82e78" name="Send Call Message Call"
                 coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542" event="#28d26895-678f-4dc8-bd8b-75ab46cba6f1"/>
@@ -1239,6 +1245,8 @@
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:ExecutionEnd"
                 id="bac8d702-0cff-4bc1-8ffd-3e2583e0ad2a" name="endExec" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"
                 event="#612f590a-2b19-40f7-adcb-ef5c48ca533c"/>
+            <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:InteractionOperand"
+                id="cb0b823f-4cec-42d0-8530-8ee020909f02" name="operand" coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542"/>
             <ownedInteractionFragments xsi:type="org.polarsys.capella.core.data.interaction:MessageEnd"
                 id="76459ee6-799a-42ce-a3d3-075fa3f92a4a" name="Send Call Message Call"
                 coveredInstanceRoles="#dfb2723e-6bb9-476a-b50a-25ce14ddd542" event="#12a0774a-63c4-48e6-9548-bf137182f829"/>
@@ -1322,7 +1330,7 @@
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:CombinedFragment"
                 id="dc3259b3-745a-4684-b724-c3cb88e5f342" name="combined fragment"
                 start="#26dd9b5b-5c71-49a2-bd1f-8081b33ec0be" finish="#8f7c5a94-7127-45ff-a26d-4fc9dda454ea"
-                operator="PAR" referencedOperands="#95587832-9595-49c1-b6bc-806f53aa4cbb"/>
+                operator="PAR" referencedOperands="#cb0b823f-4cec-42d0-8530-8ee020909f02 #19869977-ccaf-41c4-9478-f8ded8defcac #c124d001-12e0-4fb6-b378-2482b5ead82b #96a36c48-3100-4832-98db-a3b622d4ccf2 #8b0c3a11-c5d0-4a75-b17a-90560f39160a"/>
             <ownedTimeLapses xsi:type="org.polarsys.capella.core.data.interaction:Execution"
                 id="d9224a96-6ae1-4b6c-a17e-4e1a30e173b8" start="#c262e2aa-98f2-4389-a96d-4939d4cc215a"
                 finish="#7965854c-b311-4fec-8dc5-4a0b17363e15"/>
@@ -1807,6 +1815,8 @@
             id="bf98132f-4d79-44ba-ad51-5c9584e499a4" name="Root Physical Function">
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="467503fb-0e81-47c1-996c-b55a6b79e32e" name="vérifier le mode de transport">
+            <ownedExtensions xsi:type="filtering:AssociatedFilteringCriterionSet"
+                id="7c93018f-4ca0-41a7-a9c5-436366484081" filteringCriteria="#9744422d-d36c-446a-9925-a343d81e90b3"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="a05d6ea5-7b42-4904-9a49-a0296de12a4b" name="FIP 2"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -2068,6 +2078,8 @@
               id="7b36162a-ec25-4a91-999a-aa49fd8cc9c2" name="contact avec le service"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="baca21a8-affa-4d83-aa5e-a2c71fe19e3b" name="comptage des colis et calcul création d'un itinéraire">
+            <ownedExtensions xsi:type="filtering:AssociatedFilteringCriterionSet"
+                id="72ddf0cd-45dc-4da1-8872-258b9eff5ab1" filteringCriteria="#dded3253-6f72-428f-a194-192a2e1628c2"/>
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="0457605d-1eee-4ce7-9992-4726e5f54731" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
